@@ -22,7 +22,9 @@
       <li><a href="#service" data-i18n="nav_service">Service</a></li>
       <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
     </ul>
-    <button id="lang-toggle" class="lang-btn">ES</button>
+    <button id="lang-toggle" class="lang-btn">
+      <img id="lang-flag" src="assets/En.png" alt="Idioma" style="height: 2.2em; width: auto; vertical-align: middle;" />
+    </button>
   </nav>
 
     <div class="bars-animation">
@@ -339,7 +341,11 @@
           el.placeholder = translations[lang][key];
         }
       });
-      document.getElementById('lang-toggle').textContent = lang === 'en' ? 'ES' : 'EN';
+      const flagImg = document.getElementById('lang-flag');
+      if (flagImg) {
+        flagImg.src = lang === 'en' ? 'assets/Es.png' : 'assets/En.png';
+        flagImg.alt = lang === 'en' ? 'Español' : 'English';
+      }
     }
 
     document.getElementById('lang-toggle').addEventListener('click', function() {
