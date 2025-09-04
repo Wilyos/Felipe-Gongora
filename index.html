@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Felipe Góngora</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Portfolio</a>
+    <div class="menu-icon" id="menu-icon">
+      <i class='bx bx-menu'></i>
+    </div>
+    <ul>
+      <li><a href="#home" data-i18n="nav_home">Home</a></li>
+      <li><a href="#about" data-i18n="nav_about">About</a></li>
+      <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+      <li><a href="#service" data-i18n="nav_service">Service</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <button id="lang-toggle" class="lang-btn">ES</button>
+  </nav>
+
+    <div class="bars-animation">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1 data-i18n="home_title">D&V Bank</h1>
+            <h2>
+                <span data-i18n="home_we_are" class="static-span">soy</span>
+                <span style="--i:2" data-i18n="home_span1" data-text="The Future of the money" class="animated-span">f1</span>
+                <br>
+                <span style="--i:1" data-i18n="home_span2" data-text="New way to live your finances" class="animated-span">f2</span>
+            </h2>
+            <p data-i18n="home_desc">
+              We are not just a bank. We are the evolution of how you understand and use your money.</p>
+            <div class="btn-sci">
+        <a href="#" class="btn" data-i18n="home_save_contact">Save Contact</a>
+        <div class="sci">
+          <a href="https://wa.me/573005413989" target="_blank" title="Enviar WhatsApp">
+            <i class='bx bxl-whatsapp' ></i>
+          </a>
+          <a href="mailto:pipefitline@gmail.com">
+            <i class='bx bx-envelope'></i>
+          </a>
+          <a href="https://pipegongora.com" target="_blank">
+            <i class='bx bx-globe'></i>
+          </a>
+          <a href="https://instagram.com/pipegongoraoficial" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          </a>
+        </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/assets/profile2.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/profile.webp" alt="profile" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading" data-i18n="about_title">About <span class="bg-gradient-1">Us</span></h2>
+        <p data-i18n="about_desc">
+          
+        </p>
+        <a href="#contacto">
+          <button class="btn" data-i18n="about_btn">Contact me</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="projects">
+  <h2 class="heading" data-i18n="projects_title"><span class="bg-gradient-1"></span></h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="/assets/banner1pg.webp" alt="logo">
+          <h3 data-i18n="project1_title"></h3>
+          <p data-i18n="project1_desc">
+            
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="/assets/banner2pg.webp" alt="eco">
+          <h3 data-i18n="project2_title"></h3>
+          <p data-i18n="project2_desc">
+            
+          </p>
+        </div>
+        <div class="project-card">
+            <img src="/assets/banner3pg.webp" alt="solutions">
+            <h3 data-i18n="project3_title"></h3>
+            <p data-i18n="project3_desc">
+              
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+  <h2 class="heading" data-i18n="services_title"></h2>
+      <div class="services-container">
+          <div class="service-box">
+            <div class="service-info">
+              <i class='bx bxs-capsule'></i>
+              <h4 data-i18n="service1_title"></h4>
+              <p data-i18n="service1_desc">
+                
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-info">
+                <i class='bx bx-donate-heart'></i>
+                <h4 data-i18n="service2_title"></h4>
+                <p data-i18n="service2_desc">
+                 
+                </p>
+            </div>
+          </div>
+           <div class="service-box">
+            <div class="service-info">
+                <i class='bx bx-money-withdraw' ></i>
+                <h4 data-i18n="service3_title"></h4>
+                <p data-i18n="service3_desc">
+                  
+                </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+  <h2 class="heading" data-i18n="contact_title">Contact <span class="bg-gradient-1">Us</span></h2>
+  <div class="contact-content">
+    <div class="social-icons">
+      <ul>
+        <li>
+          <a href="https://wa.me/573005413989" target="_blank" title="Send WhatsApp">
+            <i class='bx bxl-whatsapp' ></i>
+          </a>
+          <span class="tag-contact" data-i18n="contact_phone">336 473 9727</span>
+        </li>
+        <li>
+          <a href="mailto:pipefitline@gmail.com">
+            <i class='bx bx-envelope'></i>
+          </a>
+          <span class="tag-contact" data-i18n="contact_email">pipefitline@gmail.com</span>
+        </li>
+        <li>
+          <a href="https://pipegongora.com" target="_blank">
+            <i class='bx bx-globe'></i>
+          </a>
+          <span class="tag-contact" data-i18n="contact_web">pipegongora.com</span>
+        </li>
+        <li>
+          <a href="https://instagram.com/pipegongoraoficial" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <span class="tag-contact" data-i18n="contact_instagram">@pipegongoraoficial</span>
+        </li>
+      </ul>
+    </div>
+<form id="contact-form" class="contact-form">
+  <input type="text" name="name" placeholder="Your Name" class="input" required data-i18n-placeholder="form_name" />
+  <input type="email" name="email" placeholder="Your Email" class="input" required data-i18n-placeholder="form_email" />
+  <textarea name="message" placeholder="Your Message" class="textarea" required data-i18n-placeholder="form_message"></textarea>
+  <button type="submit" class="btn" data-i18n="form_send">Send Message</button>
+</form>
+  </div>
+    </section>
+
+    <footer class="footer">
+  <p class="copyright" data-i18n="footer_copy">&copy; Pipe Gongora 2025</p>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    //traslates const
+    const translations = {
+      en: {
+          nav_home: "Home",
+          nav_about: "About",
+          nav_portfolio: "Portfolio",
+          nav_service: "Services",
+          nav_contact: "Contact",
+
+          home_title: "Felipe Góngora",
+          home_we_are: "I am",
+          home_span1: "Speaker",
+          home_span2: "Coach",
+          home_desc: "Transform your life through self-love ",
+          home_save_contact: "Save Contact",
+
+          about_title: "<span class='bg-gradient-1'>About Me</span>",
+          about_desc: "I am Felipe Góngora, professional speaker, mindset coach, and Celion ambassador. My purpose is to help people unlock their best version through fitness, self-love, and resilient thinking. With a degree in Physical Education and strong experience in the wellness industry, I believe true transformation begins from within.",
+          about_btn: "Get in Touch",
+
+          projects_title: "Featured <span class='bg-gradient-1'>Projects</span>",
+          project1_title: "Fitline Supplements",
+          project1_desc: "Strategic collaboration with Fitline, focused on promoting overall wellness and a healthy lifestyle.",
+          project1_img: "fitline.jpg",
+          project1_link: "#",
+
+          project2_title: "IML",
+          project2_desc: "Coaching and consulting in training and mindset programs designed for high performance.",
+          project2_img: "iml.jpg",
+          project2_link: "#",
+
+          project3_title: "Celion Ambassador",
+          project3_desc: "Representing Celion as an official ambassador, spreading the message of discipline, self-love, and personal growth.",
+          project3_img: "celion.jpg",
+          project3_link: "#",
+
+          services_title: "Services",
+          service1_title: "Nutrition & Fitness Coaching",
+          service1_desc: "Personalized plans to help you achieve your health, fitness, and lifestyle goals.",
+          service2_title: "Mindset Coaching",
+          service2_desc: "Sessions designed to strengthen your mindset and boost personal and professional growth.",
+          service3_title: "Monetize Your Best Self",
+          service3_desc: "Guidance to turn your passion into a profitable and sustainable project.",
+          service4_title: "Work with Me at Celion",
+          service4_desc: "Opportunities to grow alongside a brand that inspires health, discipline, and results.",
+
+          contact_title: "Contact <span class='bg-gradient-1'>Me Now</span>",
+          contact_phone: "+57 300 541 3989",
+          contact_email: "pipefitline@gmail.com",
+          contact_web: "pipegongora.com",
+          contact_instagram: "@pipegongoraoficial",
+
+          form_name: "Your Name",
+          form_email: "Your Email",
+          form_message: "Your Message",
+          form_send: "Send Message",
+
+          footer_copy: "© Felipe Góngora 2025"
+        },
+     es: {
+        nav_home: "Inicio",
+        nav_about: "Acerca",
+        nav_portfolio: "Portafolio",
+        nav_service: "Servicios",
+        nav_contact: "Contacto",
+
+        home_title: "Felipe Góngora",
+        home_we_are: "Soy",
+        home_span1: "Conferencista",
+        home_span2: "Coach",
+        home_desc: "Transforma tu vida desde el amor propio.",
+        home_save_contact: "Guardar contacto",
+
+        about_title: "<span class='bg-gradient-1'>Sobre mí</span>",
+        about_desc: "Soy Felipe Góngora, conferencista profesional, coach de mindset y embajador de Celion. Mi propósito es ayudar a las personas a descubrir su mejor versión a través del fitness, el amor propio y la mentalidad resiliente. Con formación en Educación Física y experiencia en la industria del bienestar, creo que la verdadera transformación comienza desde adentro.",
+        about_btn: "Contáctame",
+
+        projects_title: "Proyectos <span class='bg-gradient-1'>Destacados</span>",
+        project1_title: "Fitline Suplementos",
+        project1_desc: "Colaboración estratégica con Fitline, enfocada en promover el bienestar integral y un estilo de vida saludable.",
+        project1_img: "fitline.jpg",
+        project1_link: "#",
+
+        project2_title: "IML",
+        project2_desc: "Acompañamiento y asesorías en programas de entrenamiento y mentalidad enfocados en alto rendimiento.",
+        project2_img: "iml.jpg",
+        project2_link: "#",
+
+        project3_title: "Embajador Celion",
+        project3_desc: "Representando a Celion como embajador oficial, llevando el mensaje de disciplina, amor propio y superación.",
+        project3_img: "celion.jpg",
+        project3_link: "#",
+
+        services_title: "Servicios",
+        service1_title: "Asesoría Nutricional y Deportiva",
+        service1_desc: "Planes personalizados que te ayudarán a alcanzar tus metas físicas y de bienestar.",
+        service2_title: "Coaching de Mentalidad",
+        service2_desc: "Sesiones enfocadas en fortalecer tu mindset y potenciar tu crecimiento personal y profesional.",
+        service3_title: "Monetiza tu Mejor Versión",
+        service3_desc: "Guía para transformar tu pasión en un proyecto rentable y sostenible.",
+        service4_title: "Trabaja conmigo en Celion",
+        service4_desc: "Acompañamiento para crecer junto a una marca que inspira salud, disciplina y resultados.",
+
+        contact_title: "Contáctame <span class='bg-gradient-1'>Ahora</span>",
+        contact_phone: "300 541 3989",
+        contact_email: "pipefitline@gmail.com",
+        contact_web: "pipegongora.com",
+        contact_instagram: "@pipegongoraoficial",
+
+        form_name: "Tu Nombre",
+        form_email: "Tu Correo",
+        form_message: "Tu Mensaje",
+        form_send: "Enviar Mensaje",
+
+        footer_copy: "© Felipe Góngora 2025"
+      }
+
+    };
+
+    let currentLang = 'en';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          // Si es un span animado, actualiza también el data-text
+          if (el.hasAttribute('data-text')) {
+            el.setAttribute('data-text', translations[lang][key]);
+            el.textContent = translations[lang][key];
+          } else if (key.includes('title') || key.includes('projects_title') || key.includes('about_title') || key.includes('contact_title')) {
+            el.innerHTML = translations[lang][key];
+          } else {
+            el.textContent = translations[lang][key];
+          }
+        }
+      });
+      // Traducción de placeholders
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (translations[lang][key]) {
+          el.placeholder = translations[lang][key];
+        }
+      });
+      document.getElementById('lang-toggle').textContent = lang === 'en' ? 'ES' : 'EN';
+    }
+
+    document.getElementById('lang-toggle').addEventListener('click', function() {
+      setLanguage(currentLang === 'en' ? 'es' : 'en');
+    });
+
+    // Inicializa en inglés
+    setLanguage('en');
+</script>
+
+</body>
+</html>
