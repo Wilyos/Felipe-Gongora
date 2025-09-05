@@ -232,7 +232,7 @@ a{
     color: transparent;
     -webkit-text-stroke: .7px var(--main-color-2);
     animation: display-text 9s linear infinite;
-    animation-delay: calc(-4.5s * var(--i));
+    animation-delay: calc(-3.5s * var(--i));
 }
 
 @keyframes display-text {
