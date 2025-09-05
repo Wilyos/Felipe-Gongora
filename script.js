@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	if (saveContactBtn) {
 		saveContactBtn.addEventListener('click', function(e) {
 			e.preventDefault();
-			const vcardData = `BEGIN:VCARD\nVERSION:3.0\nFN:Felipe Góngora\nORG:Pipe Gongora\nTEL;TYPE=WORK,VOICE:3005413989\nEMAIL:pipefitline@gmail.com\nURL:https://pipegongora.com\nEND:VCARD`;
+			const vcardData = `BEGIN:VCARD\nVERSION:3.0\nFN:Felipe Góngora\nORG:Pipe Gongora\nTEL;TYPE=WORK,VOICE:3005413989\nEMAIL:pipefitline@gmail.com\nURL:\nEND:VCARD`;
 			const blob = new Blob([vcardData], { type: 'text/vcard' });
 			const url = URL.createObjectURL(blob);
 			const a = document.createElement('a');
